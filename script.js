@@ -8,6 +8,10 @@ function apagar() {
 	resultado.innerHTML = '';
 }
 
+function backspace() {
+	resultado.innerHTML = resultado.innerHTML.slice(0, -1);
+}
+
 
 function calcular() {
 	let resultado = document.querySelector('#display').innerHTML;
