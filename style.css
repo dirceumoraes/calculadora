@@ -36,6 +36,20 @@ body {
     box-sizing: border-box; 
 }
 
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    height: 70px;
+    width: 100%;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 
 .zero {
     grid-column: span 2;
