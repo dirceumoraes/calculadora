@@ -15,6 +15,8 @@ function calcular() {
 	if(resultado !== '') {
 		document.querySelector('#display').innerHTML = eval(resultado);
 	} else {
+		console.log('Nada para calcular');
+		console.log("ajajajaja")
 		document.querySelector('#display').innerHTML = 'Nada para calcular';
 	}
 }
